@@ -15,7 +15,7 @@ This repository aims to provide a hands-on learning experience for IoT enthusias
 
 - Author: Kshitij Kumar Singh
 - Email: kshitijkumarsingh58@gmail.com
-- GitHub: [Kshitijkumar15](https://github.com/kshitijkumar15)
+
 
 
 ## Feedback
