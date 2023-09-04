@@ -76,7 +76,4 @@ $~~~$
 
   $~~~$
 
-## Feedback
-
-Reach out to me at kshitijkumarsingh58@gmail.com
 
