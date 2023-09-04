@@ -1,4 +1,7 @@
-# IOT
+<div align="center">
+  
+  # IOT
+  </div>
 
 ## Introduction
 
@@ -6,11 +9,12 @@ The Internet of Things (IoT) refers to the network of interconnected devices and
 
 This repository aims to provide a hands-on learning experience for IoT enthusiasts, students, and developers. Each experiment focuses on a specific aspect of IoT technology and provides step-by-step instructions, code samples, and explanations to help you build and understand IoT systems.
 
-
+$~~~$
 ### Experiment 1
 
 ![Experiment 1](https://github.com/Kshitijkumar15/IOT/blob/Beginning/Screenshot%202023-09-01%20at%2009.31.25.png)
 
+$~~~$
 ## Contact
 
 - Author: Kshitij Kumar Singh
