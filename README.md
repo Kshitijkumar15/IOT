@@ -5,7 +5,7 @@
 
 ## Introduction
 
-The Internet of Things (IoT) refers to the network of interconnected devices and objects that can communicate and exchange data over the internet. These devices can range from sensors and actuators to everyday objects such as home appliances, vehicles, and more. IoT has transformed various industries, enabling smart homes, industrial automation, healthcare innovations, and environmental monitoring.
+The Internet of Things (IoT) refers to the network of interconnected devices and objects that can communicate and exchange data over the Internet. These devices can range from sensors and actuators to everyday objects such as home appliances, vehicles, and more. IoT has transformed various industries, enabling smart homes, industrial automation, healthcare innovations, and environmental monitoring.
 
 This repository aims to provide a hands-on learning experience for IoT enthusiasts, students, and developers. Each experiment focuses on a specific aspect of IoT technology and provides step-by-step instructions, code samples, and explanations to help you build and understand IoT systems.
 
@@ -64,7 +64,7 @@ You can customize this program in various ways:
 
 <div align="center">
   
- <b>Experiment 1 End</b>
+ <b>Experiment - 1 End</b>
   </div>
 $~~~$
 ## Contact
