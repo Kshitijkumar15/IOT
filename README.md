@@ -30,8 +30,8 @@ $~~~$
 1. Connect each LED to a digital pin on the Arduino UNO as follows:
    - LED 1: Connect to digital pin 13
    - LED 2: Connect to digital pin 12
-   - LED 3: Connect to digital pin 11
-   - LED 4: Connect to digital pin 10
+   - LED 3: Connect to digital pin 8
+   - LED 4: Connect to digital pin 7
 
 2. Connect a 220-330 ohm resistor to the longer (anode) leg of each LED. Connect the other end of each resistor to the ground (GND) pin on the Arduino.
 
