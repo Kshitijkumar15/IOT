@@ -64,7 +64,7 @@ You can customize this program in various ways:
 
 <div align="center">
   
- <b>Experiment - 1 End</b>
+ <b>End</b>
   </div>
   
 $~~~$
