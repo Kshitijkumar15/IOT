@@ -61,6 +61,11 @@ You can customize this program in various ways:
 - Change the delay duration in the code to control the blinking speed of the LEDs.
 - Modify the code to include additional LEDs or create different blinking patterns.
 
+
+<div align="center">
+  
+ <b>Experiment 1 End</b>
+  </div>
 $~~~$
 ## Contact
 
