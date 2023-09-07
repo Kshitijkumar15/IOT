@@ -15,6 +15,12 @@ $~~~$
 ![Experiment 1](https://github.com/Kshitijkumar15/IOT/blob/Beginning/Screenshot%202023-09-01%20at%2009.31.25.png)
 
 $~~~$
+
+### Experiment 2
+<img width="1052" alt="Screenshot 2023-09-07 at 18 31 28" src="https://github.com/Kshitijkumar15/IOT/assets/66892634/79359241-f42d-456f-84e0-a69f7441e3bc">
+
+$~~~$
+
 ## Prerequisites
 
 Before you get started, make sure you have the following:
