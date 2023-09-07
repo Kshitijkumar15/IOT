@@ -10,6 +10,7 @@ The Internet of Things (IoT) refers to the network of interconnected devices and
 This repository aims to provide a hands-on learning experience for IoT enthusiasts, students, and developers. Each experiment focuses on a specific aspect of IoT technology and provides step-by-step instructions, code samples, and explanations to help you build and understand IoT systems.
 
 $~~~$
+
 ## Experiment 1
 
 ### Screenshot
@@ -26,7 +27,9 @@ Before you get started, make sure you have the following:
 - Four 220-330 ohm resistors
 - Breadboard and jumper wires
 - Arduino IDE installed on your computer
+
 $~~~$
+
 ### Hardware Setup
 
 1. Connect each LED to a digital pin on the Arduino UNO as follows:
@@ -38,7 +41,9 @@ $~~~$
 2. Connect a 220-330 ohm resistor to each LED's longer (anode) leg. Connect the other end of each resistor to the ground (GND) pin on the Arduino.
 
 3. Make sure your hardware connections match the program's pin assignments in the code.
+
 $~~~$
+
 ### Upload the Code
 
 1. Open the Arduino IDE on your computer.
@@ -50,14 +55,18 @@ $~~~$
 4. Select the correct board and port from the "Tools" menu in the Arduino IDE.
 
 5. Click the "Upload" button to upload the code to your Arduino UNO.
+
 $~~~$
+
 ### Running the Program
 
 The program will run automatically once you've uploaded the code to your Arduino UNO. The LEDs connected to digital pins 10, 11, 12, and 13 will blink in sequence. Each LED will turn on for 300 milliseconds and then turn off for 300 milliseconds before the next LED starts.
+
 $~~~$
 
 ## Experiment 2(Blinking Odd and Even LED's together)
 This is a simple Arduino sketch to create a blinking pattern on a set of LEDs using an array and modulo logic. In this example, we will use six LEDs connected to pins 8 through 13 on the Arduino board.
+
 $~~~$
 
 ### Screenshot
@@ -75,6 +84,7 @@ $~~~~$
 - Circuit Diagram
 
 $~~~$
+
 ### Connect the LEDs to the Arduino as follows:
 
 LED 1: Pin 8
@@ -83,6 +93,7 @@ LED 3: Pin 10
 LED 4: Pin 11
 LED 5: Pin 12
 LED 6: Pin 13
+
 $~~~$
 
 ### How It Works
@@ -108,12 +119,5 @@ You can customize this program in various ways:
   </div>
   
 $~~~$
-
-## Contact
-
-- Author: Kshitij Kumar Singh
-- Email: kshitijkumarsingh58@gmail.com
-
-  $~~~$
 
 
