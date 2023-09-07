@@ -12,6 +12,7 @@ This repository aims to provide a hands-on learning experience for IoT enthusias
 $~~~$
 ## Experiment 1
 
+### Screenshot
 ![Experiment 1](https://github.com/Kshitijkumar15/IOT/blob/Beginning/Screenshot%202023-09-01%20at%2009.31.25.png)
 
 $~~~$
@@ -58,8 +59,10 @@ $~~~$
 ## Experiment 2(Blinking Odd and Even LED's together)
 This is a simple Arduino sketch to create a blinking pattern on a set of LEDs using an array and modulo logic. In this example, we will use six LEDs connected to pins 8 through 13 on the Arduino board.
 $~~~$
+
 ### Screenshot
 <img width="1052" alt="Screenshot 2023-09-07 at 18 31 28" src="https://github.com/Kshitijkumar15/IOT/assets/66892634/79359241-f42d-456f-84e0-a69f7441e3bc">
+
 $~~~~$
 
 ### Prerequisites
@@ -81,6 +84,14 @@ LED 4: Pin 11
 LED 5: Pin 12
 LED 6: Pin 13
 $~~~$
+
+### How It Works
+
+This Arduino sketch defines an array ledPins that holds the pins to which the LEDs are connected and a variable lightModulo to control the blinking pattern. In the setup function, it sets the pins as OUTPUT and initializes serial communication.
+
+The loop function repeatedly calls TurnOnEvenOdd, which controls the LED blinking pattern. It toggles the LEDs on and off in an even/odd pattern based on the lightModulo value. The lightModulo value is decremented and then made positive to create a continuous alternating pattern. A delay is used to control the speed of the blinking.
+
+Upload this sketch to your Arduino board, and you will see the LEDs blinking in an even/odd pattern. You can adjust the delayTime variable to change the blinking speed.
 
 ### Customization
 
