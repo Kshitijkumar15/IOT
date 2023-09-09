@@ -122,7 +122,7 @@ You can customize this program in various ways:
 
 <div align="center">
   
- <b>End</b>
+ <b>THE END</b>
   </div>
   
 $~~~$
