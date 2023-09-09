@@ -64,7 +64,7 @@ The program will run automatically once you've uploaded the code to your Arduino
 
 $~~~$
 
-## Experiment 2(Blinking Odd and Even LED's together)
+## Experiment 2 (Blinking Odd and Even LED's together)
 This is a simple Arduino sketch to create a blinking pattern on a set of LEDs using an array and modulo logic. In this example, we will use six LEDs connected to pins 8 through 13 on the Arduino board.
 
 $~~~$
