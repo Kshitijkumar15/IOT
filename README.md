@@ -107,6 +107,12 @@ The loop function repeatedly calls TurnOnEvenOdd, which controls the LED blinkin
 
 Upload this sketch to your Arduino board, and you will see the LEDs blinking in an even/odd pattern. You can adjust the delayTime variable to change the blinking speed.
 
+$~~~~$
+
+[Code](https://github.com/Kshitijkumar15/IOT/blob/Beginning/Odd-Even.ino)
+
+$~~~~$
+
 ### Customization
 
 You can customize this program in various ways:
