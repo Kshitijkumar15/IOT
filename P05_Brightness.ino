@@ -1,7 +1,7 @@
 const int analogInput1 = A0;
 const int analogInput2 = A1;
 const int analogOutput1 = 10;
-const int analogOutput2 = 9;
+const int analogOutput2 = 8;
 const int analogOutput3 = 6;
 const int analogOutput4 = 5;
 
