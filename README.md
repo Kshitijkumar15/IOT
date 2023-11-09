@@ -390,6 +390,185 @@ Before you begin, make sure you have the following:
 
 Feel free to reach out with any questions or issues related to this code. Happy experimenting!
 
+
+## Experiment 8 Controlling Servo Motor Without Potentiometer
+
+This Arduino code demonstrates how to control a servo motor without using a potentiometer. The servo motor continuously sweeps back and forth in a 180-degree range, providing a simple example of servo motor control.
+
+### Prerequisites
+
+Before you begin, make sure you have the following:
+
+- An Arduino board (e.g., Arduino Uno)
+- A servo motor
+- Jumper wires
+- Arduino IDE installed on your computer
+
+### Circuit Connections
+
+![Circuit Diagram](https://github.com/Princepm02/Internet_of_Things/assets/91951172/2278e362-c9d8-4989-b71c-fab7bdae950a)
+
+Connect the components as follows:
+
+- Connect the servo motor's signal (blue wire) to digital pin 9 on the Arduino.
+- Connect the servo motor's power (red wire) to the 5V output on the Arduino.
+- Connect the servo motor's ground (black wire) to the ground (GND) on the Arduino.
+
+### Usage
+
+1. Open the Arduino IDE on your computer.
+2. Copy and paste the provided code into a new Arduino sketch.
+3. Make sure your Arduino board is selected under the "Tools" menu.
+4. Upload the code to your Arduino board.
+5. Once the code is uploaded successfully, the servo motor will start sweeping back and forth in a 180-degree range.
+6. You can adjust the sweep range and speed by modifying the `delay` values and the `for` loop conditions in the code.
+
+### Code Explanation
+
+- The `Servo` library is used to control the servo motor.
+- An instance of the `Servo` class, named `myservo`, is created.
+- The servo motor is attached to digital pin 9 on the Arduino.
+- The servo motor sweeps from 0 to 180 degrees and then back from 180 to 0 degrees repeatedly, with a short delay between each step. This creates a continuous back-and-forth motion.
+
+### Customization
+
+- You can adjust the sweep range by modifying the `for` loop conditions. For example, to sweep over a smaller range, change `pos<180` to `pos<90` for a 90-degree sweep.
+- Modify the `delay` values to change the speed of the servo motor's sweep. Lower values result in faster sweeps, while higher values result in slower sweeps.
+
+---
+
+Feel free to reach out with any questions or issues related to this code. Enjoy experimenting with servo motor control!
+
+## Experiment 9 Scrolling Message on LCD
+
+This Arduino Uno project demonstrates how to create a scrolling message on an LCD screen. By using an Arduino Uno board and some basic electronic components, you can create a simple project that displays a scrolling message on a 16x2 character LCD screen.
+
+### Components Used
+
+- Arduino Uno board
+- 16x2 LCD Screen
+- 1 Potentiometer
+- 1 Resistor
+- Small Breadboard
+- Jumper Wires
+
+### Circuit Diagram
+
+![Circuit Diagram](https://github.com/Princepm02/Internet_of_Things/assets/91951172/d3defac9-fa6b-4251-8775-2d0432b7f4b3)
+
+In the circuit diagram, you'll notice the following connections:
+
+- **Arduino Uno to LCD:**
+  - `rs`, `en`, `d4`, `d5`, `d6`, and `d7` pins on the LCD are connected to corresponding digital pins on the Arduino Uno.
+
+- **Potentiometer:**
+  - The potentiometer is used to adjust the contrast of the LCD screen. Its terminals connect to the LCD's V0, GND, and VCC pins.
+
+- **Resistor:**
+  - The resistor can be used to limit current if needed in your specific setup.
+
+- **Power Supply:**
+  - Make sure to connect the 5V power supply of the Arduino Uno to the LCD's VCC and GND pins.
+
+### Usage
+
+1. Connect the components according to the circuit diagram.
+2. Upload your Arduino sketch to your Arduino Uno board.
+3. Watch as the scrolling message on the LCD screen demonstrates your project.
+
+### Code Explanation
+
+The Arduino sketch provided in this project accomplishes the scrolling message effect on the LCD. The code is relatively straightforward and involves the following elements:
+
+- It initializes the LCD screen and prints the message "Welcome to IOT lab!" on it.
+- The `loop` section of the code continuously scrolls the message to the left and right, creating the scrolling effect.
+
+### Customization
+
+You can customize this project in several ways:
+
+- **Message**: Modify the message displayed on the LCD by changing the `lcd.print("Welcome to IOT lab!");` line in the `setup` function.
+
+- **Scrolling Speed**: You can adjust the scrolling speed by changing the `delay` values within the `loop` section. A shorter delay will result in faster scrolling, while a longer delay will slow it down.
+
+- **LCD Size**: If you are using an LCD of a different size (e.g., 20x4 or others), you may need to adjust the `lcd.begin()` function parameters in the `setup` function to match the correct dimensions.
+
+Feel free to experiment and adapt the project to your specific needs and preferences.
+
+---
+Happy tinkering! If you have any questions or encounter issues, please feel free to open an issue or reach out for assistance.
+
+## Experiment 10 Bluetooth LED Control
+
+This Arduino program allows you to control an LED connected to pin 13 of the Arduino using a Bluetooth module. You can control the LED remotely through a mobile app. An Android app named "LED.apk" is provided in this directory for controlling the LED.
+
+### Components Used
+
+- Arduino Uno board
+- Bluetooth module (HC-05, HC-06, etc.)
+- LED
+- 220-ohm resistor
+- Jumper Wires
+
+### Circuit Diagram
+
+![image](https://github.com/Princepm02/Internet_of_Things/assets/91951172/8e2a81bc-bc8d-4217-972d-7da60d0bf0a8)
+
+
+### Installation
+
+1. Upload the provided Arduino sketch to your Arduino Uno board.
+2. Connect your Bluetooth module to the Arduino as per the module's datasheet.
+3. Power up the Arduino.
+
+### Mobile App
+
+To control the LED using your smartphone, follow these steps:
+
+1. Download the "LED.apk" Android app.
+
+2. If you encounter issues downloading the app from GitHub, you can also download it from this Google Drive link: [LED.apk](https://drive.google.com/file/d/15cmB3DTVUp2sgsGstZ8bYTuSu4KDmzDt/view?usp=drive_link).
+
+3. Install the app on your Android device.
+
+4. Pair your Android device with the Bluetooth module on the Arduino.
+
+5. Open the app, connect to the Bluetooth module, and use the app's interface to turn the LED on or off.
+
+### Usage
+
+1. After pairing your device with the Bluetooth module, you can control the LED through the mobile app.
+
+2. Press the "ON" button in the app to turn the LED on.
+
+3. Press the "OFF" button in the app to turn the LED off.
+
+### Code Explanation
+
+The Arduino sketch included in this project performs the following functions:
+
+- It sets up the serial communication with the Bluetooth module.
+
+- The `setup` function configures pin 13 as an output pin, which is connected to the LED.
+
+- The `loop` function constantly checks for incoming data from the Bluetooth module.
+
+- When "1" is received, it turns the LED on.
+
+- When "0" is received, it turns the LED off.
+
+### Customization
+
+You can customize this project in several ways:
+
+- Change the pin number to which the LED is connected by modifying the `pinMode` and `digitalWrite` commands in the Arduino sketch.
+
+- Modify the Android app to have a different interface or additional features based on your requirements.
+
+
+
+If you encounter any issues or have questions, please open an issue or contact us for assistance.
+
  <b>THE END</b>
   </div>
   
