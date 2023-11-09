@@ -120,7 +120,7 @@ You can customize this program in various ways:
 - Modify the code to include additional LEDs or create different blinking patterns.
 
 
-<div align="center">
+
 
 ## Experiment 3 LED Control with Push Button
 
@@ -167,7 +167,7 @@ This process allows the LED to be toggled on and off each time the button is pre
 
 If you have any suggestions or improvements, please feel free to open an issue or create a pull request.
 
-### Experiment 4  Traffic Light Control for Car and Pedestrian
+### Experiment 4  Traffic Light Control for Car and Pedestrians
 
 This Arduino program simulates a traffic light system for both cars and pedestrians. The traffic lights change based on the input from a push-button switch. When the switch is pressed, the traffic lights cycle through their phases, allowing cars and pedestrians to safely navigate the intersection.
 
@@ -387,8 +387,9 @@ Before you begin, make sure you have the following:
 - You can adjust the servo motor's control pin by changing the `myservo.attach(9)` line to use a different digital pin (3, 5, 6, 9, 10, or 11).
 - Modify the `delay(100)` value to change the delay between servo position updates, controlling the servo's speed.
 
----
+
 Feel free to reach out with any questions or issues related to this code. Happy experimenting!
+
  <b>THE END</b>
   </div>
   
