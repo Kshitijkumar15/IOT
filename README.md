@@ -62,8 +62,6 @@ $~~~$
 
 The program will run automatically once you've uploaded the code to your Arduino UNO. The LEDs connected to digital pins 10, 11, 12, and 13 will blink in sequence. Each LED will turn on for 300 milliseconds and then turn off for 300 milliseconds before the next LED starts.
 
-$~~~$
-[Code](https://github.com/Kshitijkumar15/IOT/blob/Beginning/LED.ino)
 
 $~~~$
 
