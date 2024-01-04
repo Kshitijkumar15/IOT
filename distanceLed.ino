@@ -2,7 +2,7 @@ import RPi.GPIO as GPIO
 import time
 
 GPIO.setwarnings(False)
-# doing this first, since we're using a while True.
+// doing this first, since we're using a while True.
 GPIO.cleanup()
 
 GPIO.setmode(GPIO.BCM)
